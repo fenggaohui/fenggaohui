@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <!--标题-->
+    <header class="header">
+        <h1>忧郁泡 youyupao</h1>
+        <p>扬州 | 信息工程系 | 计算机网络应用</p>
+    </header>
+    <!--导航-->
+    <nav class="nav-container">
+        <div class="logo"><img src="images/2.jpg" class="face">xxx</div>
+
+        <button class="hbb" id="hbb">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </button>
+        
+        <div class="nav-links">
+            <a href="#" class="nav-link">个人介绍</a>
+            <a href="#" class="nav-link">教育背景</a>
+            <a href="#" class="nav-link">旅游日记</a>
+            <a href="#" class="nav-link">兴趣爱好</a>
+            <a href="#" class="nav-link">联系方式</a>
+        </div>
+
+
+        </div>
+
+    </nav>
+    <script>
+        const hbb=document.getElementById('hbb');
+        const navlinks=document.querySelector('.nav-links');
+        hbb.addEventListener('click',()=>{
+            hbb.classList.toggle('active');
+            navlinks.classList.toggle('active');
+        });
+    </script>
+    <!--内容区-->
+    <main class="main-content">
+        <div class="primany-content">
+            <div class="content-card">
+                <h2>个人介绍</h2>
+                <p>我深知 “先天下之忧而忧，后天下之乐而乐”，一直以来，我都努力培养自己的社会责任感，关心周围的人和事。积极参与各类公益活动，希望能为社会贡献一份自己的力量，在帮助他人的过程中，收获内心的满足与快乐。
+                </p>
+            </div>
+            <div class="content-card">
+                <h3>教育背景</h3>
+                <div class="timeline">
+                    <div class="time-item">
+                        <h4>初中</h4>
+                        <p>2016-2024年</p>
+                    </div>
+                    <div class="time-item">
+                        <h4>大专</h4>
+                        <p>2022年-2024年</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>实习</h4>
+                        <p>2024年-至今</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <h3>旅游日记</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h4>2024.4</h4>
+                        <p><img src="images/3.jpg"></p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>2025.2</h4>
+                        <p><img src="images/4.jpg"></p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>2025.4</h4>
+                        <p><img src="images/5.jpg"></p>
+                    </div>
+                </div>
+            </div>
+    
+    
+
+    <aside class="siebar">
+        <div class="content-card">
+            <h3>兴趣爱好</h3>
+            <ul>
+                <li>摄影</li>
+                <li>唱歌</li>
+                <li>游戏</li>
+                <li>摄影</li>
+                <li>唱歌</li>
+                <li>游戏</li>
+            </ul>
+        </div>
+
+
+
+
+
+
+    </aside>
+    </main>
+    <!--底部-->
+    <footer>xxx的联系方式：1216452254</footer>
+
+
+</body>
+
+</html>
